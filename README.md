@@ -28,7 +28,7 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented features:
 
-Link to GIF: https://i.imgur.com/OLELLtu.gif
+Link to GIF: [https://i.imgur.com/OLELLtu.gif](https://imgur.com/a/MstblTA)
 
 GIF created with CloudConvert (https://cloudconvert.com/mp4-to-gif)
 

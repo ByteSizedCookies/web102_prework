@@ -1,44 +1,60 @@
-# WEB102 Prework - *Name of App Here*
+# WEB102 Prework - Sea Monster Crowdfunding
 
-Submitted by: **Your Name Here**
+Submitted by: Kaylen Teves
 
-**Name of your app** is a website for the company Sea Monster Crowdfunding that displays information about the games they have funded.
+Sea Monster Crowdfunding is a website for the company Sea Monster Crowdfunding that displays information about the games they have funded.
 
-Time spent: **X** hours spent in total
+Time spent: 8 hours spent in total
 
 ## Required Features
 
 The following **required** functionality is completed:
 
-* [ ] The introduction section explains the background of the company and how many games remain unfunded.
-* [ ] The Stats section includes information about the total contributions and dollars raised as well as the top two most funded games.
-* [ ] The Our Games section initially displays all games funded by Sea Monster Crowdfunding
-* [ ] The Our Games section has three buttons that allow the user to display only unfunded games, only funded games, or all games.
+* [X] The introduction section explains the background of the company and how many games remain unfunded.
+* [X] The Stats section includes information about the total contributions and dollars raised as well as the top two most funded games.
+* [X] The Our Games section initially displays all games funded by Sea Monster Crowdfunding
+* [X] The Our Games section has three buttons that allow the user to display only unfunded games, only funded games, or all games.
 
 The following **optional** features are implemented:
 
-* [ ] List anything else that you can get done to improve the app functionality!
+* [X] The header doubles as a navigation bar, allowing users to jump to specific sections of the page.
+* [X] The Our Games section also includes a search bar where users can enter a specific game.
+* [X] When you hover over a game card, it slightly scales up to draw attention and enhance interactivity.
+* [X] Added hover effects to the buttons for better visual feedback and interactivity.
+* [X] Slightly increased text size for headers and body to improve readability.
+
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented features:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://imgur.com/a/MstblTA' title='WEB102 - Prework Video Walkthrough' width='' alt='WEB102 - Prework Video Walkthrough' />
+GIF created with CloudConvert (https://cloudconvert.com/mp4-to-gif)
 
-<!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  
-<!-- Recommended tools:
-[Kap](https://getkap.co/) for macOS
-[ScreenToGif](https://www.screentogif.com/) for Windows
-[peek](https://github.com/phw/peek) for Linux. -->
+In case the GIF does not work, I've also provided a YouTube link below:
+https://youtu.be/m9X8Y60H1wU
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+Challenges encountered:
+
+* During the second challenge, I ran into some confusion regarding the instruction to adding a CSS rule for the "stats-container" s.
+  At first, I misinterpreted this as referring to an s element inside .stats-container. However, after checking the MDN documentation and
+  getting clarification from ChatGPT, I realized that <s> is an HTML tag used to apply strikethroughs. The instruction was actually asking me
+  to apply Flexbox styling and align the items within the .stats-container class.
+
+* During the third challenge, after completing the addGamesToPage function and calling it, I noticed that my game cards were not displaying
+  as expected. After reviewing my code and verifying the logic, I discovered that I have forgotten to declare the i variable in the for-loop,
+  which caused the issue. Once I corrected that, the game cards appeared as intended.
+
+* While working on the customization portion, I attempted to implement a fade-in animation for each game card so they would appear one by one
+  as they loaded. However, this conflicted with the scaling animation I had already implemented for hover interactions. After some experimentation,
+  I realized that putting both animations was causing the scaling effect to stop working properly. In the end, I decided to scrap the fade-in
+  animation idea and keep the scaling animation since it provided better interactivity and visual feedback.
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright 2025 Kaylen Teves
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.

@@ -2,11 +2,17 @@
 
 body {
     font-family: 'Cabin';
-    background-color: #758190;
+    /* background-color: #758190; */
+    background: linear-gradient(135deg, #758190, #4f5a66);
 }
 
 #tentacles {
     width: 50px;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 145px;
 }
 
 .header {
@@ -17,10 +23,38 @@ body {
     margin-left: -10px;
     margin-right: -10px;
     margin-top: -10px;
+
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* shadow to separate from content */
+}
+
+.nav-links {
+    margin-left: auto;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.nav-links a:hover {
+    color: #007acc
 }
 
 .stats-container {
     display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.stats-container:hover {
+    box-shadow: 0 0 30px lightblue;
 }
 
 .stats-card {
@@ -49,17 +83,37 @@ body {
 }
 
 .game-card {
+    animation: fadeIn 0.5s ease forwards;
+
     background-color: #FFFFFF;
     padding: 1%;
     margin: 1%;
     width: 300px;
     text-align: center;
     border-radius: 7px;
+
+    transition: transform 0.3s ease, opacity 0.3s ease;
 }
 
 .game-card:hover {
     cursor: pointer;
     box-shadow: 0 0 30px lightblue;
+    transform: scale(1.05); /* make game card grow slightly */
+}
+
+#search-bar-container {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#search-input {
+    padding: 8px;
+    margin-right: 10px;
+    border-radius: 7px;
+    border: 1px solid #ccc;
+    font-family: 'Cabin';
+    font-size: 16px;
+    width: 200px;
 }
 
 #button-container {
@@ -72,4 +126,28 @@ button {
     padding: 1%;
     margin: 1%;
     border-radius: 7px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: lightblue;
+    box-shadow: 0 0 10px white;
+    transition: all 0.2s ease;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+p {
+    font-size: 1.1rem;
+    line-height: 1.5;
 }

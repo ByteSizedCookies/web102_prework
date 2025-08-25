@@ -28,7 +28,7 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented features:
 
-<img src='https://i.imgur.com/OLELLtu.gif' title='WEB102 - Prework Video Walkthrough' width='' alt='WEB102 - Prework Video Walkthrough' />
+![WEB102 - Prework Video Walkthrough](https://i.imgur.com/OLELLtu.gif)
 GIF created with CloudConvert (https://cloudconvert.com/mp4-to-gif)
 
 In case the GIF does not work, I've also provided a YouTube link: https://youtu.be/m9X8Y60H1wU

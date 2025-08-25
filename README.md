@@ -39,7 +39,7 @@ Challenges encountered:
 
 * During the second challenge, I ran into some confusion regarding the instruction to adding a CSS rule for the "stats-container" s.
   At first, I misinterpreted this as referring to an s element inside .stats-container. However, after checking the MDN documentation and
-  getting clarification from ChatGPT, I realized that <s> is an HTML tag used to apply strikethroughs. The instruction was actually asking me
+  getting clarification from ChatGPT, I realized that < s > is an HTML tag used to apply strikethroughs. The instruction was actually asking me
   to apply Flexbox styling and align the items within the .stats-container class.
 
 * During the third challenge, after completing the addGamesToPage function and calling it, I noticed that my game cards were not displaying
